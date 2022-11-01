@@ -1,0 +1,52 @@
+:root {
+    --blue-color: #004173;
+    --white-color: #FFFFFF;
+}
+.header {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav,
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.nav-list {
+    list-style: none;
+    width: 532px;
+}
+
+.nav-img {
+    width: 60px;
+}
+
+.nav-list li {
+    padding: 8px;
+}
+
+.nav-list li:hover {
+    background-color: var(--blue-color);
+    border-radius: 15px;
+    color: white;
+}
+
+@media (max-width: 412px) {
+    .header {
+        width: 170%;
+    }
+}

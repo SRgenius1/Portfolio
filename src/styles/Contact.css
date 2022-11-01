@@ -1,0 +1,46 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 728px;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.contact-button--green {
+    background-color: rgb(89, 206, 89);
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    font-size: 1.8rem;
+}
+
+.contact-button--green:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact-button--red {
+    background-color: rgb(255, 142, 142);
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    font-size: 1.8rem;
+}
+
+.contact-button--red:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 412px) {
+    .contact-section {
+        width: 169%;
+    }
+}
